@@ -21,7 +21,7 @@ def directors_totals(nds)
   while dir_index < nds.length do
     #declaring a variabe which will store the director's name for each director element. This will be a string.
     dir_name = nds[dir_index][:name]
-    #configuring
+    #
     binding.pry
     result[dir_name] = 0
     mov_index = 0
